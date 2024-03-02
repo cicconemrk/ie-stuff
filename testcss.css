@@ -1,0 +1,30 @@
+body {
+    background-color: #181818;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+textarea {
+    width: 45%;
+    height: 80vh;
+    padding: 10px;
+    resize: none;
+    border: 1px solid #414141;
+    background-color: #1f1f1f;
+}
+
+#inputTextArea, #outputTextArea {
+    color: white;
+}
+
+button {
+    background-color: #55b888;
+    border: #44936d;
+    width: 10%;
+    height: 50px;
+    margin-top: 10px;
+}
