@@ -7,7 +7,7 @@ let creatingEdges = false; //^ for Edge Creation Mode
 let startNode = null; //Used in connecting nodes
 let endNode = null; //^
 let firstClickConnection = false; //^, used in recoloring the starting node of a connection
-
+// poop
 canvas.addEventListener("click", handleCanvasClick); //When a "click" event occurs on the canvas, the handleCanvasClick function is executed
 
 function handleCanvasClick(event) {
