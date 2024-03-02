@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="djikstrastyles.css">
+
+    <title>Dijkstra's Algorithm Calculator</title>
+</head>
+
+<!--body!!!!!!!!!!!-->
+
+<body>
+    <div id="app">
+        <canvas id="graphCanvas" width="800" height="400"></canvas>
+        <div id="controls">
+            <button onclick="toggleNodePlacement()">Place Nodes</button>
+            <button onclick="toggleEdgeCreation()">Connect Nodes</button>
+            <button onclick="runDijkstra()">Run Dijkstra's</button>
+        </div>
+        <script src="djikstrascript.js"></script>
+    </div>
+
+    <div id="overlay"></div>
+    <div id="popup">
+        <input type="text" id="weightInput" placeholder="Enter weight">
+        <button id="submitBtn">Submit</button>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <center>
+        <div id="nodesColumn">
+            <h2>Nodes</h2>
+            <ul id="nodesList"></ul>
+        </div>
+        <div id="edgesColumn">
+            <h2>Edges</h2>
+            <ul id="edgesList"></ul>
+        </div>
+    </center>
+</body>
+
+</html>
