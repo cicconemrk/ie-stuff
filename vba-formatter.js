@@ -1,4 +1,4 @@
-var indentKeywords = ['Sub', 'Function', 'If', 'For', 'Do', 'Select']; // Keywords to add indents
+var indentKeywords = ['Sub', 'Function', 'If', 'For', 'Do', 'Select', 'Public', 'Private']; // Keywords to add indents
 var dedentKeywords = ['End', 'Next', 'Loop']; // Keywords to subtract indents
 var specialKeywords = ['Else', 'ElseIf']; //Since you dedent only these words & re-indent the following line
 var numSpaces = 0; // Initialize number of spaces
